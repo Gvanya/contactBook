@@ -10,7 +10,7 @@
             var valid = true;
             var lastName_pattern = /^[A-Za-z]{5,20}$/;
             var firstName_pattern = /^[A-Za-z]{2,20}$/;
-            var age_pattern = /^\s[0-1]{1}[0-9]{0,2}$/;
+            var age_pattern = /[0-9]{0,3}$/;
             var gender_pattern = /^[A-Za-z]{1,8}$/;
             var phoneNumber_pattern = /^\+\(\d{3}\)\ \d{3}\-\d{2}\-\d{2}$/;
 

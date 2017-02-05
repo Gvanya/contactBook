@@ -7,8 +7,8 @@ public class ServerValidation {
     private Pattern pattern;
     private Matcher matcher;
 
-    private static final String LastNameValidator = "^[a-z0-9_-]{5,20}$";
-    private static final String FirstNameValidator = "^[a-z0-9_-]{2,20}$";
+    private static final String LastNameValidator = "^[A-Za-z]{5,20}$";
+    private static final String FirstNameValidator = "^[A-Za-z]{2,20}$";
     private static final String AgeValidator = "^[0-9]{0,3}$";
     private static final String GenderValidator = "^[A-Za-z]{1,8}$";
     private static final String PhoneNumberValidator = "^\\+\\(\\d{3}\\)\\ \\d{3}\\-\\d{2}\\-\\d{2}$";
