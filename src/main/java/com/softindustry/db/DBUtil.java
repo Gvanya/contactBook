@@ -15,7 +15,7 @@ public class DBUtil {
         if( conn != null )
             return conn;
 
-        InputStream inputStream = DBUtil.class.getClassLoader().getResourceAsStream( "/DB.properties" );
+        InputStream inputStream = DBUtil.class.getClassLoader().getResourceAsStream( "/db.properties" );
         Properties properties = new Properties();
         try {
             properties.load( inputStream );
@@ -34,5 +34,6 @@ public class DBUtil {
         }
 
         return conn;
+
     }
 }

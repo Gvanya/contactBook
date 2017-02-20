@@ -3,6 +3,6 @@ CREATE  TABLE IF NOT EXISTS `contactbook`.`user` (
   `lastName` VARCHAR(45) NULL ,
   `firstName` VARCHAR(45) NULL ,
   `age` INT NULL,
-  `gender` VARCHAR(1) NULL,
+  `gender` VARCHAR(10) NULL,
   `phonenumber` VARCHAR(20) NULL,
   PRIMARY KEY (`userId`) )
